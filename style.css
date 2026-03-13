@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza o container na tela */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column; /* Empilha os itens (imagem, h2, p, botão) */
+    align-items: center;    /* Centraliza todos os itens horizontalmente */
+    text-align: center;     /* Garante que o texto dentro das tags também alinhe */
+    width: 100%;
+    max-width: 600px;       /* Limita a largura no desktop */
+    padding: 20px;
+}
+
+.imagem img {
+    max-width: 100%;        /* Faz a imagem diminuir se a tela for pequena */
+    height: auto;
+}
+
+hr {
+    width: 100%;            /* Faz a linha atravessar o container */
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+/* No mobile, o Flexbox já vai manter tudo no meio por causa do align-items: center */
+
