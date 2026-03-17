@@ -1,6 +1,6 @@
 
+async function getPersonagem() {
 
-  async function getPersonagem() {
     const idAleatorio = Math.floor(Math.random() * 80) + 1;
     let response = await fetch(`https://swapi.dev/api/people/${idAleatorio}/`);
     let data = await response.json();
