@@ -26,6 +26,15 @@ body {
     padding: 20px;
 }
 
+h2 {
+    
+    font-size: 1.9rem;   /* Aumenta o tamanho. Pode usar px também, ex: 24px */
+    font-weight: bold;    /* Deixa em negrito para destacar */
+    margin-top: 10px;     /* Espaço em relação ao Star Wars/Linha acima */
+    margin-bottom: 5px;   /* Espaço em relação ao botão */
+    color: rgb(27, 27, 27);       /* Uma cor levemente diferente para contraste */
+}
+
 .imagem img {
     max-width: 100%;        
     height: auto;
@@ -44,13 +53,37 @@ button{
     background-color: rgb(2, 2, 136);
     color: white;
     border-radius: 8px;
-    margin: 20px
+    margin: 20px;
+    font-weight: bold;
     
 }
 
+card {
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 20px
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
 
 
+/* removi a margem padrão do <p> para não descontrolar o espaçamento */
+.info-box p {
+    margin: o;
+}
 
+.titulo {
+    font-size: 1.5rem;   /* Aumenta o tamanho. Pode usar px também, ex: 24px */
+    font-weight: bold;    /* Deixa em negrito para destacar */
+    margin-top: 10px;     /* Espaço em relação ao Star Wars/Linha acima */
+    margin-bottom: 5px;   /* Espaço em relação ao botão */
+    color: #2c3e50;       /* Uma cor levemente diferente para contraste */
+}
 
 
 
